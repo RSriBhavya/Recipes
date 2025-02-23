@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.5s ease-in-out;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+/* Buttons */
+.theme-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.theme-buttons button:hover {
+  opacity: 0.8;
+}
+
+/* 🍦 1. Pastel & Soft */
+.pastel {
+  background: #faf3e0;
+  color: #37474f;
+}
+
+.pastel .navbar {
+  background: #a5c4d4;
+  color: #fff;
+}
+
+.pastel .footer {
+  background: #d4e2d4;
+}
+
+.pastel .theme-buttons button {
+  background: #ff8e72;
+  color: white;
+}
+
+/* 🔥 2. Warm & Appetizing */
+.warm {
+  background: #e9c46a;
+  color: #264653;
+}
+
+.warm .navbar {
+  background: #e76f51;
+  color: white;
+}
+
+.warm .footer {
+  background: #f4a261;
+}
+
+.warm .theme-buttons button {
+  background: #2a9d8f;
+  color: white;
+}
+
+/* 🌿 3. Earthy & Organic */
+.earthy {
+  background: #d4af7a;
+  color: #2f2f2f;
+}
+
+.earthy .navbar {
+  background: #3d6b35;
+  color: white;
+}
+
+.earthy .footer {
+  background: #a2b38b;
+}
+
+.earthy .theme-buttons button {
+  background: #9c6644;
+  color: white;
+}
+
+/* 🍷 4. Luxurious & Elegant */
+.luxury {
+  background: #dcdcdc;
+  color: #1c1c1c;
+}
+
+.luxury .navbar {
+  background: #6a1b4d;
+  color: white;
+}
+
+.luxury .footer {
+  background: #4e342e;
+}
+
+.luxury .theme-buttons button {
+  background: #ffcc29;
+  color: black;
+}
+
+/* 🥑 5. Fresh & Organic */
+.green {
+  background: #a7c957;
+  color: #386641;
+}
+
+.green .navbar {
+  background: #386641;
+  color: white;
+}
+
+.green .footer {
+  background: #f2e8cf;
+}
+
+.green .theme-buttons button {
+  background: #ffd670;
+  color: black;
+}
+
+/* 🍊 6. Spiced & Cozy */
+.spiced {
+  background: #e76f51;
+  color: #f4a261;
+}
+
+.spiced .navbar {
+  background: #264653;
+  color: white;
+}
+
+.spiced .footer {
+  background: #e9c46a;
+}
+
+.spiced .theme-buttons button {
+  background: #2a9d8f;
+  color: white;
+}
+
+/* 🍡 7. Soft Minimalist */
+.minimalist {
+  background: #fff5e1;
+  color: #555b6e;
+}
+
+.minimalist .navbar {
+  background: #92a8d1;
+  color: white;
+}
+
+.minimalist .footer {
+  background: #b5ead7;
+}
+
+.minimalist .theme-buttons button {
+  background: #f7cac9;
+  color: black;
+}
+
+/* 🌙 8. Dark Mode */
+.dark {
+  background: #1c1c1c;
+  color: #f7f3e3;
+}
+
+.dark .navbar {
+  background: #6b2737;
+  color: white;
+}
+
+.dark .footer {
+  background: #3e442b;
+}
+
+.dark .theme-buttons button {
+  background: #ffcc00;
+  color: black;
+}
